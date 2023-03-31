@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Astro-Blog</title>
+   <script src="./js/app.js" defer></script>
+   <link rel="stylesheet" href="./css/style.css"">
+</head>
+<body>
+    <div id="outerdiv">
+        <div id="innerdiv">
+            <h1 id="heading">Login</h1>
+            <form>
+                <div id="emaildiv">
+                    <input type="email" class="in" id="useremail" placeholder="Enter dhanu@gmail.com">
+                </div>
+                <div id="passdiv">
+                    <input type="password" class="in" id="userpass" placeholder="Enter 12345">
+                    <img src="./astro/asset/logo/closewye.png" id="visible" onmousedown="visiblepass()" onmouseup="invisiblepass()">
+                </div>
+                <span id="status"></span>
+                <input type="button" value="Login" id="login" onclick="accesstopage()">
+                <h2 id="newac">First time here? <a href="./html/register.html"><span id="createac">Create an Account</span></a></h2>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

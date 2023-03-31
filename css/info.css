@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 300vh;
+    background-image: linear-gradient(teal,black);
+}
+#header{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    opacity: 1;    
+}
+#about{
+    width: 50%;
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    float: left;
+}
+#abpara{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+    word-spacing: 5px;
+    font-size: 18px;
+    color: rgb(194, 189, 189);
+}
+#mapandabout{
+    width: 100%;
+    height: 500px;
+}
+iframe{
+    width: 700px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+    border: 10px groove orange;
+}
+#galaxy{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+#galaxyvd{
+    border-radius: 30px;
+}
+#objects{
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.a{
+    width: 250px;
+    height: 300px;
+    background-color: red;
+    border-radius: 20px;
+}
+#star{
+    background-image: url(../astro/asset/images/star.jpg);
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transition-duration 2s;
+    
+}
+#stars{
+    color: white;
+    font-size: 40px;
+    padding-top: 220px;
+    justify-content: center;
+    display: flex;
+    opacity: 0;
+    transition-duration: 2s;
+}
+#star:hover #stars{
+    opacity: 1;
+    font-size: 50px;
+}
+#asteroids{
+    background-image: url(../astro/asset/images/aseroid-01-as-gty-190808_hpMain_2_16x9_992.jpg);
+    background-size: 220%;
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 10px gray;
+}
+#asteroidss{
+    color: white;
+    font-size: 30px;
+    padding-top: 220px;
+    justify-content: center;
+    display: flex;
+    opacity: 0;
+    transition-duration: 2s;
+}
+#asteroids:hover #asteroidss{
+    opacity: 1;
+    font-size: 40px;
+}
+#satellite{
+    background-image: url(../astro/asset/images/sattelite.jpg);
+    background-size: 130%;
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 10px gray;
+}
+#satellites{
+    color: red;
+    font-size: 30px;
+    padding-top: 220px;
+    justify-content: center;
+    display: flex;
+    opacity: 0;
+    transition-duration: 2s;
+}
+#satellite:hover #satellites{
+    opacity: 1;
+    font-size: 40px;
+}
+#blackholes{
+    background-image: url(../astro/asset/images/Black_hole_1.webp);
+    background-size: 220%;
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 10px gray;
+}
+#blackholess{
+    color: white;
+    font-size: 25px;
+    padding-top: 220px;
+    justify-content: center;
+    display: flex;
+    opacity: 0;
+    transition-duration: 2s;
+}
+#blackholes:hover #blackholess{
+    opacity: 1;
+    font-size: 35px;
+}
+#planates{
+    background-image: url(../astro/asset/images/planates.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 10px gray;
+}
+#planatess{
+    color: white;
+    font-size: 25px;
+    padding-top: 220px;
+    justify-content: center;
+    display: flex;
+    opacity: 0;
+    transition-duration: 2s; 
+}
+#planates:hover #planatess{
+    opacity: 1;
+    font-size: 45px;
+}
+#objectss{
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+video{
+    background-position: 1500px 1500px;
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Planets</title>
+    <script src="../js/planets.js" defer></script>
+    <link rel="stylesheet" href="../css/planets.css">
+    <link rel="stylesheet" href="../css/navigation.css">
+</head>
+<body>
+    <div id="header">
+        <h1 id="heading">Gallary of planets</h1>
+            <input class="b" id="left" type="button" value="<" onclick="dec()">
+            <input class="b" id="right" type="button" value=">" onclick="inc()">
+    </div>
+    <div id="navbar">
+        <ul id="mainlist">
+            <a href="./Homepage.html"><li class="mli">home</li></a>
+            <a href="./info.html"><li class="mli">info</li></a>
+            <li class="mli" id="sublistobj">objects
+                <ul id="sublist">
+                    <li class="sli">planets</li>
+                    <li class="sli">stars</li>
+                    <li class="sli">blackholes</li>
+                    <li class="sli">astroids</li>
+                    <li class="sli">satellite</li>
+                </ul>
+            </li>
+            <a href="../index.html"><li class="mli">logout</li></a>
+        </ul>
+    </div> 
+    <div id="gallaryimages">
+        <img class="a" onclick="openimg(0,'Mercury','Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Suns planets.')">
+        <img class="a" onclick="openimg(1,'Venus','Venus is the second planet from the Sun and is Earth’s closest planetary neighbor. It’s one of the four inner, terrestrial (or rocky) planets, and it’s often called Earth’s twin because it’s similar in size and density.')">
+        <img class="a" onclick="openimg(2,'Earth','Earth is the third planet from the Sun and the only place known in the universe where life has originated and found habitability. While Earth may not contain the largest volumes of water in the Solar System, only Earth sustains liquid surface water, extending over 70.8% of the Earth with its ocean, making Earth an ocean world.')">
+        <img class="a" onclick="openimg(3,'Mars','Mars is the fourth planet from the Sun – a dusty, cold, desert world with a very thin atmosphere. Mars is also a dynamic planet with seasons, polar ice caps, canyons, extinct volcanoes, and evidence that it was even more active in the past.')">
+        <img class="a" onclick="openimg(4,'Jupiter','Jupiter has a long history of surprising scientists – all the way back to 1610 when Galileo Galilei found the first moons beyond Earth. That discovery changed the way we see the universe.')">
+        <img class="a" onclick="openimg(5,'Saturn','Saturn is the sixth planet from the Sun and the second-largest planet in our solar system.')">
+        <img class="a" onclick="openimg(6,'Uranus','Uranus is the seventh planet from the Sun, and has the third-largest diameter in our solar system. It was the first planet found with the aid of a telescope, Uranus was discovered in 1781 by astronomer William Herschel, although he originally thought it was either a comet or a star.')">
+        <img class="a" onclick="openimg(7,'Nuptune','Dark, cold, and whipped by supersonic winds, ice giant Neptune is the eighth and most distant planet in our solar system.')">
+    </div>
+    <div id="subwindow" style="display: none;">
+        <h1 id="close" onclick="closeimg()">X</h1>
+        <img id="subimage" src="../astro/asset/images/0.jpg">
+        <h1 id="imageheading">Heading</h1>
+        <p id="imgpara"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, nostrum.</p>
+    </div>
+</body>
+</html>
